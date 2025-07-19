@@ -17,7 +17,7 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
       >
         <img
-          src="public\profile.png"
+          src="profile.png"
           alt="Ramsundar M"
           className="object-cover w-full h-full"
         />
