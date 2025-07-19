@@ -17,7 +17,7 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
       >
         <img
-          src="public\profile.png"
+          src={`${import.meta.env.BASE_URL}profile.png`}
           alt="Ramsundar M"
           className="object-cover w-full h-full"
         />
