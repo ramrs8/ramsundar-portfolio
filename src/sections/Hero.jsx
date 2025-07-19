@@ -9,7 +9,21 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-white to-blue-50 px-4"
     >
-      {/* Heading */}
+      {/* Floating Avatar */}
+      <motion.div
+        className="w-36 h-36 md:w-40 md:h-40 rounded-full overflow-hidden shadow-xl mb-6 border-4 border-white bg-white/30 backdrop-blur-md"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <img
+          src="public\profile.png"
+          alt="Ramsundar M"
+          className="object-cover w-full h-full"
+        />
+      </motion.div>
+
+      {/* Name */}
       <motion.h1
         className="text-5xl md:text-6xl font-bold text-blue-700 mb-4"
         initial={{ opacity: 0, y: -40 }}
@@ -19,7 +33,7 @@ const Hero = () => {
         Hi, I'm Ramsundar M
       </motion.h1>
 
-      {/* Typewriter Effect */}
+      {/* Typewriter */}
       <motion.p
         className="text-lg md:text-xl text-blue-600 font-semibold max-w-2xl mb-6"
         initial={{ opacity: 0, y: 20 }}
@@ -31,7 +45,7 @@ const Hero = () => {
             "Full Stack Developer",
             "Android Developer",
             "React & Flutter Enthusiast",
-            "UI/UX Learner"
+            "UI/UX Learner",
           ]}
           loop={true}
           cursor
@@ -50,13 +64,13 @@ const Hero = () => {
         transition={{ delay: 1, duration: 0.6 }}
       >
         <a href="https://github.com/ramrs8" target="_blank" rel="noreferrer">
-          <FaGithub className="hover:text-black" />
+          <FaGithub className="hover:text-black transition" />
         </a>
         <a href="https://linkedin.com/in/ramsundarm" target="_blank" rel="noreferrer">
-          <FaLinkedin className="hover:text-blue-700" />
+          <FaLinkedin className="hover:text-blue-700 transition" />
         </a>
         <a href="mailto:ramsundar982004@gmail.com">
-          <FaEnvelope className="hover:text-red-500" />
+          <FaEnvelope className="hover:text-red-500 transition" />
         </a>
       </motion.div>
 
