@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 
-const GITHUB_USERNAME = "ramsundarm"; // 🔁 Change to your GitHub username
+const GITHUB_USERNAME = "ramrs8"; // 🔁 Change to your GitHub username
 
 const Projects = () => {
   const [repos, setRepos] = useState([]);
