@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ramsundarm.github.io/ramsundar-portfolio",
+  "homepage": "https://ramrs8.github.io/ramsundar-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

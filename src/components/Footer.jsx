@@ -19,7 +19,7 @@ const Footer = () => {
             <FaEnvelope />
           </a>
           <a
-            href="https://github.com/ramsundarm"
+            href="https://github.com/ramrs8"
             target="_blank"
             rel="noreferrer"
             className="hover:text-gray-300"

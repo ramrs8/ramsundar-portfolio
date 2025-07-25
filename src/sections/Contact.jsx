@@ -31,12 +31,12 @@ const Contact = () => {
           </div>
           <div className="flex items-center gap-2">
             <FaMapMarkerAlt className="text-red-500" />
-            <span>Old Pallavaram, Chennai</span>
+            <span>9/6A, Kamatchi Nagar, 1st main Road, Old Pallavaram, Chennai-600117</span>
           </div>
         </div>
 
         <div className="flex justify-center gap-6 text-2xl text-gray-600 mb-8">
-          <a href="https://github.com/ramsundarm" target="_blank" rel="noreferrer">
+          <a href="https://github.com/ramrs8" target="_blank" rel="noreferrer">
             <FaGithub className="hover:text-black" />
           </a>
           <a href="https://linkedin.com/in/ramsundarm" target="_blank" rel="noreferrer">

@@ -45,7 +45,6 @@ const Hero = () => {
             "Full Stack Developer",
             "Android Developer",
             "React & Flutter Enthusiast",
-            "UI/UX Learner",
           ]}
           loop={true}
           cursor
