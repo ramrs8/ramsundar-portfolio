@@ -18,12 +18,19 @@ A modern, responsive, and animated **developer portfolio** built using **React**
 ## 📂 Project Structure
 
 src/
-├── assets/ # Static assets (images, profile)
-├── components/ # Shared UI components (Navbar, Footer)
-├── sections/ # Page sections (Hero, About, Projects, Contact)
-├── styles/ # Global CSS and Tailwind configuration
+
+    ├── assets/ # Static assets (images, profile)
+
+    ├── components/ # Shared UI components (Navbar, Footer)
+
+    ├── sections/ # Page sections (Hero, About, Projects, Contact)
+
+    ├── styles/ # Global CSS and Tailwind configuration
+  
 ├── App.jsx # Main App component
+
 ├── main.jsx # Entry point
+
 └── index.css # Tailwind and base styles
 
 🔗 Live Demo
@@ -32,8 +39,11 @@ Visit the live version here:
 
 
 👨‍💻 About Me
+
 Ramsundar M
-📍 Chennai, India
-💬 Passionate about web & mobile development (React + Flutter)
-📧 ramsundar982004@gmail.com
-🔗 LinkedIn | GitHub
+
+  📍 Chennai, India
+
+  💬 Passionate about web & mobile development (React + Flutter)
+
+  📧 ramsundar982004@gmail.com
