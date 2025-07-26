@@ -1,12 +1,39 @@
-# React + Vite
+# 🚀 Ramsundar M – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated **developer portfolio** built using **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This site showcases my projects, skills, and contact information with a clean UI and elegant user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React** – Component-based UI
+- ⚡ **Vite** – Lightning-fast build tool
+- 🎨 **Tailwind CSS** – Utility-first CSS framework
+- 🎞️ **Framer Motion** – Smooth, declarative animations
+- 🔡 **React Simple Typewriter** – Typing animation in Hero
+- 🧱 **React Icons** – Developer-friendly icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+src/
+├── assets/ # Static assets (images, profile)
+├── components/ # Shared UI components (Navbar, Footer)
+├── sections/ # Page sections (Hero, About, Projects, Contact)
+├── styles/ # Global CSS and Tailwind configuration
+├── App.jsx # Main App component
+├── main.jsx # Entry point
+└── index.css # Tailwind and base styles
+
+🔗 Live Demo
+Visit the live version here:
+👉 https://ramrs8.github.io/ramsundar-portfolio/
+
+
+👨‍💻 About Me
+Ramsundar M
+📍 Chennai, India
+💬 Passionate about web & mobile development (React + Flutter)
+📧 ramsundar982004@gmail.com
+🔗 LinkedIn | GitHub
